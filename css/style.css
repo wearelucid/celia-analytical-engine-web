@@ -1,11 +1,14 @@
 * {
     font-family: monospace;
     background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    height: 1668px;
-    width: 2224px;
+    height: 100vh;
+    width: 100vw;
     overflow: hidden;
 }
 
@@ -26,45 +29,61 @@ h1 {
 }
 
 .container {
-    transform: translateY(-1668px);
+    transform: translateY(-100vh);
     position: relative;
+    transition: transform linear 0.4s;
 }
 
-.details {
+.container.is-top {
+    transform: translateY(0);
+}
+
+.slide-detail {
     background: whitesmoke;
-    height: 1668px;
-    width: 2224px;
+    background: rgb(255, 43, 43);
+    height: 100vh;
+    width: 100vw;
     text-align: center;
 }
 
+.slide-content {
+    background-color: teal;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
 .carousel, .carousel-cell {
-    height: calc(1668px*2);
-    width: 2224px;
+    height: calc(100vh * 2);
+    width: 100vw;
 }
 
 .carousel-cell>img {
-    height: 1668px;
-    width: 2224px;
+    height: 100vh;
+    width: 100vw;
     object-fit: contain;
     /* object-fit: cover; Falls die Künstlerin will, dass das bild covered*/
 }
 
-.scroll-up {
+.button {
+    background-color: turquoise;
+    width: 200px;
+    height: 80px;
     position: absolute;
-    right: 100px;
-    top: 1800px;
+    top: 10px;
+    left: 10px;
 }
 
 .show-details {
     transform: translateY(0);
 }
 
-.sroll-down {
-    position: absolute;
-    right: 880px;
-    top: 1000px;
-}
-
 div.video {
     text-align: center;
+}
+
+/* Override flickity default values */
+
+.flickity-prev-next-button {
+    top: 75%;
 }
