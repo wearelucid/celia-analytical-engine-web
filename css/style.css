@@ -1,0 +1,70 @@
+* {
+    font-family: monospace;
+    background-color: whitesmoke;
+}
+
+body {
+    height: 1668px;
+    width: 2224px;
+    overflow: hidden;
+}
+
+button {
+    border: 1px;
+    border: black;
+    position: absolute;
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+    text-decoration: underline;
+}
+
+h1 {
+    color: Black;
+    font-family: monospace;
+    top: 0px;
+}
+
+.container {
+    transform: translateY(-1668px);
+    position: relative;
+}
+
+.details {
+    background: whitesmoke;
+    height: 1668px;
+    width: 2224px;
+    text-align: center;
+}
+
+.carousel, .carousel-cell {
+    height: calc(1668px*2);
+    width: 2224px;
+}
+
+.carousel-cell>img {
+    height: 1668px;
+    width: 2224px;
+    object-fit: contain;
+    /* object-fit: cover; Falls die Künstlerin will, dass das bild covered*/
+}
+
+.scroll-up {
+    position: absolute;
+    right: 100px;
+    top: 1800px;
+}
+
+.show-details {
+    transform: translateY(0);
+}
+
+.sroll-down {
+    position: absolute;
+    right: 880px;
+    top: 1000px;
+}
+
+div.video {
+    text-align: center;
+}
