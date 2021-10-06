@@ -8,27 +8,15 @@ var flickityOptionen = {
 var flkty = new Flickity(elem, flickityOptionen);
 
 var scrollUpButtons = document.querySelectorAll('.button-see-more');
-
-// Add eventlistener for all buttons
-// scrollUpButtons.forEach(button => {
-//     button.addEventListener('click', () => {
-//         console.log('Hoi Oli');
-//     })
-// })
+var scrollDownButtons = document.querySelectorAll('.button-down');
 
 scrollUpButtons.forEach(button => {
     button.addEventListener('click', seeMore)
 })
 
-// select all back to engine buttons, compare: see more buttons
-
-// add eventlistener for all back to engine buttons to listen for clicks
-// pass seeLess function to remove is ´is-top´ class
-
-
-console.log('scrollUpButtons: ', scrollUpButtons);
-
-
+scrollDownButtons.forEach(button => {
+    button.addEventListener('click', seeLess)
+})
 
 function seeMore() {
     console.log('hallo')
@@ -41,6 +29,12 @@ function seeLess() {
     var container = document.querySelector('.container')
     container.classList.remove("is-top")
 }
+
+
+
+
+
+
 
 
 
