@@ -87,3 +87,9 @@ div.video {
 .flickity-prev-next-button {
     top: 75%;
 }
+
+/* change flickity fullscreen layout */
+
+.carousel.is-fullscreen .carousel-cell {
+    height: 100%;
+}

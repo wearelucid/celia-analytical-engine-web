@@ -1,4 +1,11 @@
 var elem = document.querySelector('.carousel');
+var flickityOptionen = {
+    cellAlign: 'left',
+    contain: true,
+    wrapAround: true,
+    pageDots: false,
+}
+var flkty = new Flickity(elem, flickityOptionen);
 
 var scrollUpButtons = document.querySelectorAll('.button-see-more');
 
@@ -21,14 +28,7 @@ scrollUpButtons.forEach(button => {
 
 console.log('scrollUpButtons: ', scrollUpButtons);
 
-var flickityOptionen = {
-    cellAlign: 'left',
-    contain: true,
-    wrapAround: true,
-    pageDots: false,
-}
 
-var flkty = new Flickity(elem, flickityOptionen);
 
 function seeMore() {
     console.log('hallo')

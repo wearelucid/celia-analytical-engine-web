@@ -147,7 +147,3 @@ https://flickity.metafizzy.co
 .flickity-page-dots .dot.is-selected {
     opacity: 1;
 }
-
-.carousel.is-fullscreen .carousel-cell {
-    height: 100%;
-}
