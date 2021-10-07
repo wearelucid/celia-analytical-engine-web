@@ -17,7 +17,6 @@ button {
     border: black;
     position: absolute;
     text-align: center;
-    margin: 5px;
     padding: 15px;
     text-decoration: underline;
 }
@@ -40,14 +39,16 @@ h1 {
 
 .slide-detail {
     background: whitesmoke;
-    background: rgb(255, 43, 43);
+    background: whitesmoke;
     height: 100vh;
     width: 100vw;
     text-align: center;
+    overflow-y: auto;
+    position: relative;
 }
 
 .slide-content {
-    background-color: teal;
+    background-color: whitesmoke;
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -66,20 +67,17 @@ h1 {
 }
 
 .button {
-    background-color: turquoise;
-    width: 200px;
-    height: 80px;
+    background-color: whitesmoke;
+    width: 250px;
+    height: 100px;
     position: absolute;
     top: 10px;
     left: 10px;
+    border-radius: 5px;
 }
 
 .show-details {
     transform: translateY(0);
-}
-
-div.video {
-    text-align: center;
 }
 
 /* Override flickity default values */
@@ -92,4 +90,47 @@ div.video {
 
 .carousel.is-fullscreen .carousel-cell {
     height: 100%;
+}
+
+.button-down {
+    bottom: 10px;
+    left: 1150px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.button-see-more {
+    left: 1150px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.flickity-button {
+    background-color: whitesmoke;
+}
+
+.caption {
+    font-size: 18px;
+    font-family: monospace;
+    position: absolute;
+    left: 1225px;
+    text-align: center;
+    top: 1300px;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+}
+
+iframe {
+    height: 100vh;
+    width: 100vw;
+}
+
+.img {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    top: 9vh;
 }

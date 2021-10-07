@@ -1,14 +1,18 @@
 var elem = document.querySelector('.carousel');
+
 var flickityOptionen = {
     cellAlign: 'left',
     contain: true,
     wrapAround: true,
-    pageDots: false,
 }
+
 var flkty = new Flickity(elem, flickityOptionen);
 
-var scrollUpButtons = document.querySelectorAll('.button-see-more');
-var scrollDownButtons = document.querySelectorAll('.button-down');
+var scrollUpButtons = document.querySelectorAll('[data-scroll-up]');
+var scrollDownButtons = document.querySelectorAll('[data-scroll-down]');
+
+console.log('scrollUpButtons: ', scrollUpButtons)
+console.log('scrollDownButtons: ', scrollDownButtons)
 
 scrollUpButtons.forEach(button => {
     button.addEventListener('click', seeMore)
@@ -29,7 +33,6 @@ function seeLess() {
     var container = document.querySelector('.container')
     container.classList.remove("is-top")
 }
-
 
 
 
