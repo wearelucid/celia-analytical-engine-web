@@ -4,6 +4,9 @@ var flickityOptionen = {
     cellAlign: 'left',
     contain: true,
     wrapAround: true,
+    fullscreen: true,
+    pageDots: false,
+    draggable: false,
 }
 
 var flkty = new Flickity(elem, flickityOptionen);
