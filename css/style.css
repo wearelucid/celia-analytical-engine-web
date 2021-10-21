@@ -14,11 +14,10 @@ body {
 
 button {
     border: 1px;
-    border: black;
-    position: absolute;
     text-align: center;
     padding: 15px;
     text-decoration: underline;
+    border-radius: 5px;
 }
 
 h1 {
@@ -33,18 +32,17 @@ h1 {
     transition: transform linear 0.4s;
 }
 
+.container .slide-detail {
+    opacity: 0;
+    transition: opacity linear 1s;
+}
+
 .container.is-top {
     transform: translateY(0);
 }
 
-.slide-detail {
-    background: whitesmoke;
-    background: whitesmoke;
-    height: 100vh;
-    width: 100vw;
-    text-align: center;
-    overflow-y: auto;
-    position: relative;
+.container.is-top .slide-detail {
+    opacity: 1;
 }
 
 .slide-content {
@@ -52,6 +50,9 @@ h1 {
     position: relative;
     height: 100vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel, .carousel-cell {
@@ -59,21 +60,22 @@ h1 {
     width: 100vw;
 }
 
-.carousel-cell>img {
-    height: 100vh;
-    width: 100vw;
-    object-fit: cover;
-    /* object-fit: cover; Falls die Künstlerin will, dass das bild covered*/
-}
-
 .button {
     background-color: whitesmoke;
-    width: 250px;
-    height: 100px;
+    color: black;
+    font-size: 20px;
+    z-index: 99;
+    top: 45%;
+}
+
+.button-down {
+    top: 93%;
+    position: absolute
+}
+
+.button-see-more {
+    top: 3%;
     position: absolute;
-    top: 10px;
-    left: 10px;
-    border-radius: 5px;
 }
 
 .show-details {
@@ -82,56 +84,80 @@ h1 {
 
 /* Override flickity default values */
 
-.flickity-prev-next-button {
-    top: 75%;
-}
-
 /* change flickity fullscreen layout */
 
-.button-down {
-    bottom: 10px;
-    left: 1150px;
-    font-size: 18px;
-    text-align: center;
-}
-
-.button-see-more {
-    left: 1150px;
-    font-size: 18px;
-    text-align: center;
-}
-
-.flickity-button {
-    background-color: whitesmoke;
-}
-
 .caption {
-    font-size: 18px;
-    font-family: monospace;
     position: absolute;
-    left: 1225px;
-    text-align: center;
-    top: 1300px;
+    font-size: 20px;
     border-radius: 5px;
-    width: 120px;
-    height: 40px;
-    padding: auto;
+    padding: 5px;
+    z-index: 99;
+    top: 93%;
 }
 
 iframe {
+    height: 80vh;
+    width: 100vw;
+    border: 0;
+}
+
+.slide-detail {
+    background: whitesmoke;
+    position: relative;
     height: 100vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caption-detail {
+    position: absolute;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    z-index: 99;
+    top: 7%;
 }
 
 .img {
     display: block;
-    /* position: relative;
-    margin-left: auto;
-    margin-right: auto; */
-    width: 50%;
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /*vh=9*/
+    object-fit: cover;
+    z-index: 1;
+}
+
+.carousel.is-fullscreen .carousel-cell {
+    height: 100%;
+}
+
+.carousel-cell {
+    height: 200px;
+}
+
+/* fullscreen */
+
+.carousel.is-fullscreen .carousel-cell {
+    height: 100%;
+}
+
+.button-down:hover {
+    text-decoration: black;
+}
+
+.button-see-more:hover {
+    text-decoration: black;
+}
+
+.flickity-button {
+    background-color: ghostwhite;
+}
+
+.flickity-prev-next-button {
+    top: 75%;
 }
