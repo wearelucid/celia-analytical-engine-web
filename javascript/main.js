@@ -1,4 +1,4 @@
-var elem = document.querySelector('.carousel');
+var elem = document.querySelector('.carousel')
 
 var flickityOptionen = {
     cellAlign: 'left',
@@ -6,12 +6,14 @@ var flickityOptionen = {
     wrapAround: true,
     fullscreen: true,
     pageDots: false,
+    draggable: true,
 }
 
-var flkty = new Flickity(elem, flickityOptionen);
+var flkty = new Flickity(elem, flickityOptionen)
 
-var scrollUpButtons = document.querySelectorAll('[data-scroll-up]');
-var scrollDownButtons = document.querySelectorAll('[data-scroll-down]');
+var scrollUpButtons = document.querySelectorAll('[data-scroll-up]')
+var scrollDownButtons = document.querySelectorAll('[data-scroll-down]')
+var container = document.querySelector('.container')
 
 console.log('scrollUpButtons: ', scrollUpButtons)
 console.log('scrollDownButtons: ', scrollDownButtons)
@@ -25,16 +27,34 @@ scrollDownButtons.forEach(button => {
 })
 
 function seeMore() {
-    console.log('hallo')
-    var container = document.querySelector('.container')
-    container.classList.add("is-top")
+    scrollUp()
+    disableSwipe()
 }
 
 function seeLess() {
-    console.log('tschau')
-    var container = document.querySelector('.container')
-    container.classList.remove("is-top")
+    scrollDown()
+    enableSwipe()
 }
+
+function scrollDown() {
+    container.classList.remove('is-top')
+}
+
+function scrollUp() {
+    container.classList.add('is-top')
+}
+
+function disableSwipe() {
+    flkty.options.draggable = false
+    flkty.updateDraggable()
+}
+
+function enableSwipe() {
+    flkty.options.draggable = true
+    flkty.updateDraggable()
+}
+
+
 
 
 

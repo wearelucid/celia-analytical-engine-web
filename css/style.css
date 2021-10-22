@@ -1,6 +1,5 @@
 * {
-    font-family: monospace;
-    background-color: whitesmoke;
+    font-family: 'Anonymous Pro', monospace;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -63,14 +62,18 @@ h1 {
 .button {
     background-color: whitesmoke;
     color: black;
-    font-size: 20px;
+    font-size: 24px;
     z-index: 99;
     top: 45%;
 }
 
 .button-down {
     top: 93%;
-    position: absolute
+    position: absolute;
+}
+
+.button-down:hover {
+    text-decoration: black;
 }
 
 .button-see-more {
@@ -88,11 +91,12 @@ h1 {
 
 .caption {
     position: absolute;
-    font-size: 20px;
+    font-size: 24px;
     border-radius: 5px;
     padding: 5px;
     z-index: 99;
     top: 93%;
+    background-color: whitesmoke;
 }
 
 iframe {
@@ -113,11 +117,12 @@ iframe {
 
 .caption-detail {
     position: absolute;
-    font-size: 20px;
+    font-size: 24px;
     border-radius: 5px;
     padding: 5px;
     z-index: 99;
     top: 7%;
+    background-color: whitesmoke;
 }
 
 .img {
@@ -132,32 +137,29 @@ iframe {
     z-index: 1;
 }
 
-.carousel.is-fullscreen .carousel-cell {
-    height: 100%;
-}
-
-.carousel-cell {
-    height: 200px;
-}
-
-/* fullscreen */
-
-.carousel.is-fullscreen .carousel-cell {
-    height: 100%;
-}
-
-.button-down:hover {
-    text-decoration: black;
-}
-
 .button-see-more:hover {
     text-decoration: black;
 }
 
-.flickity-button {
-    background-color: ghostwhite;
+.flickity-button, .flickity-button:hover {
+    background-color: transparent;
 }
 
 .flickity-prev-next-button {
     top: 75%;
+}
+
+.img-wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    overflow-y: scroll;
+}
+
+.img-wrapper>img {
+    width: 100%;
+}
+
+.flickity-enabled.is-fullscreen .flickity-page-dots .dot {
+    background: transparent;
 }
