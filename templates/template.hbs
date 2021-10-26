@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes> -->
+  <title>{{tile}}</title>
+  <link rel="stylesheet" href="../css/flickity.css">
+  <link rel="stylesheet" href="../css/flickity-fullscreen.css">
+  <link href="../css/style.css" type="text/css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="carousel">
+
+      {{#each slides}}
+        <div class="carousel-cell">
+
+          {{#if this.detail}}
+          <div class="slide-detail">
+            {{#if this.detail.video}}
+            <div class="video">
+              <iframe src="{{this.detail.video}}"></iframe>
+            </div>
+            {{else if this.detail.image}}
+            <button class="button button-down" data-scroll-down>Back to Engine</button>
+            <img class="img" src="{{this.detail.image}}">
+            <div class="caption-detail">{{this.detail.caption}}</div>
+            {{/if}}
+          </div>
+          {{/if}}
+        
+          <div class="slide-content">
+            {{#if this.content.caption}}
+              <div class="caption">{{this.content.caption}}</div>
+            {{/if}}
+
+            <img class="img" src="{{this.content.image}}">
+            <button class="button button-see-more" data-scroll-up>See More</button>
+          </div>
+
+        </div>
+      {{/each}}
+
+    </div>
+  </div>
+
+  <script src="../javascript/flickity.pkgd.min.js"></script>
+  <script src="../javascript/main.js"></script>
+</body>
+</html>

@@ -11,6 +11,15 @@ body {
     overflow: hidden;
 }
 
+/* Index page list, listing both projects */
+.list {
+    padding: 20px;
+}
+
+.list li {
+    list-style: none;
+}
+
 button {
     border: 1px;
     text-align: center;

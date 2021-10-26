@@ -1,0 +1,15 @@
+{
+  "name": "celia-analytical-engine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "netlify": "yarn generate-all",
+    "generate-nk": "node index.js content/naughty-knitting.json",
+    "generate-r": "node index.js content/remorseful.json",
+    "generate-all": "yarn generate-nk && yarn generate-r"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}
