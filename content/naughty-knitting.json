@@ -23,12 +23,18 @@
     },
     {
       "content": {
-        "caption": "Caption 2",
+        "caption": "Caption 3",
         "image": "/images/ipad_naughty-knitting/11nk_empirical-sublime_ipadScan7.jpg"
       },
       "detail": {
         "caption": "Detail caption 2",
         "image": "/images/detail_images/11nk_link_empirical-sublime-fullpage.jpg"
+      }
+    },
+    {
+      "content": {
+        "caption": "Caption 4",
+        "image": "/images/ipad_naughty-knitting/11nk_empirical-sublime_ipadScan7.jpg"
       }
     }
   ]

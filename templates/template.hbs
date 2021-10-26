@@ -22,8 +22,8 @@
       {{#each slides}}
         <div class="carousel-cell">
 
-          {{#if this.detail}}
           <div class="slide-detail">
+            {{#if this.detail}}
             {{#if this.detail.video}}
             <div class="video">
               <iframe src="{{this.detail.video}}"></iframe>
@@ -33,8 +33,8 @@
             <img class="img" src="{{this.detail.image}}">
             <div class="caption-detail">{{this.detail.caption}}</div>
             {{/if}}
+            {{/if}}
           </div>
-          {{/if}}
         
           <div class="slide-content">
             {{#if this.content.caption}}
@@ -42,7 +42,10 @@
             {{/if}}
 
             <img class="img" src="{{this.content.image}}">
+            
+            {{#if this.detail}}
             <button class="button button-see-more" data-scroll-up>See More</button>
+            {{/if}}
           </div>
 
         </div>
