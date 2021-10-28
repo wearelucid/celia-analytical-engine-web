@@ -5,30 +5,18 @@
       "content": {
         "caption": "Caption 1",
         "image": "../images/naughty-knitting/1nk_multiple-choice_ipadScan14.jpg"
-      },
-      "detail": {
-        "caption": "Detail caption 1",
-        "image": "../images/detail_images/10r_link_SECI_Model_nur1Bild.jpg"
       }
     },
     {
       "content": {
         "caption": "Caption 2",
         "image": "../images/naughty-knitting/2nk_strike-out-emtiness_ipadScan6.jpg"
-      },
-      "detail": {
-        "caption": "Detail caption 2",
-        "video": "https://player.vimeo.com/video/555141052"
       }
     },
     {
       "content": {
         "caption": "Caption 3",
         "image": "../images/ipad_naughty-knitting/3nk_outside-overflow_industrial-city-upside-down_ipadScan17.jpg"
-      },
-      "detail": {
-        "caption": "Detail caption 2",
-        "image": "../images/detail_images/11nk_link_empirical-sublime-fullpage.jpg"
       }
     },
     {
@@ -37,48 +25,32 @@
         "image": "../images/ipad_naughty-knitting/4nk_standart-distruption_ipad_Scan19.jpg"
       },
       "detail": {
-        "caption": "Detail caption 3",
-        "image": ""
+        "caption": " standard distribution (almost",
+        "video": "https://player.vimeo.com/video/555141052"
       }
     },
     {
       "content": {
         "caption": "Caption 5",
         "image": "../images/ipad_naughty-knitting/5nk_dead-end_ipadScan13.jpg"
-      },
-      "detail": {
-        "caption": "Detail Caption 5",
-        "image": ""
       }
     },
     {
       "content": {
         "caption": "Caption 6",
         "image": "../images/ipad_naughty-knitting/6nk_one-out-of-three-is-black_ipadScan20.jpg"
-      },
-      "detail": {
-        "caption": "Detail caption 6",
-        "image": ""
       }
     },
     {
       "content": {
         "caption": "Caption 7",
         "image": "../images/ipad_naughty-knitting/7nk_fill-in-empttiness_ipadScan3.jpg"
-      },
-      "detail": {
-        "caption": "Detail caption 7",
-        "image": ""
       }
     },
     {
       "content": {
         "caption": "Caption 8",
         "image": "../images/ipad_naughty-knitting/8nk_pixel-bubbles_ipadScam2.jpg"
-      },
-      "detail": {
-        "caption": "Detail caption 8",
-        "image": ""
       }
     },
     {
@@ -87,18 +59,14 @@
         "image": "../images/ipad_naughty-knitting/9nk_jerky-outline-added-sparkles_ipadScan23.jpg"
       },
       "detail": {
-        "caption": "Detail caption 9",
-        "image": ""
+        "caption": "outside overflow/ industrial city upside down",
+        "image": "../images/detail_images/9nk_link_outside-overflow_fullpage.jpg"
       }
     },
     {
       "content": {
         "caption": "Detail caption 10",
         "image": "../images/ipad_naughty-knitting/10nk_tenderness-inbetween_ipadScan12.jpg"
-      },
-      "detail": {
-        "caption": "Detail caption 10",
-        "image": ""
       }
     },
     {
@@ -107,18 +75,14 @@
         "image": "../images/ipad_naughty-knitting/11nk_empircal-sublime_ipadScan7.jpg"
       },
       "detail": {
-        "caption": "Detail Caption 11",
-        "image": ""
+        "caption": "empirical sublime",
+        "image": "../images/detail_images/11nk_link_empircial-sublime-fullpage.jpg"
       }
     },
     {
       "content": {
         "caption": "Detail caption 12",
         "image": "../images/ipad_naughty-knitting/12nk_entropy-rising_ipadScan26.jpg"
-      },
-      "detail": {
-        "caption": "Detail caption 12",
-        "image": ""
       }
     },
     {
@@ -127,48 +91,32 @@
         "image": "../images/ipad_naughty-knitting/13nk_average-total_ipadScan5.jpg"
       },
       "detail": {
-        "caption": "Detail caption 13",
-        "image": ""
+        "caption": "average total ",
+        "image": "../images/detail_images/13nk_link_avarage-total.jpg"
       }
     },
     {
       "content": {
         "caption": "Caption 14",
         "image": "../images/ipad_naughty-knitting/14nk_container-statistics_ipadScan27.jpg"
-      },
-      "detail": {
-        "caption": "Detail caption 14",
-        "image": ""
       }
     },
     {
       "content": {
         "caption": "Detail caption 15",
         "image": "../images/ipad_naughty-knitting/15nk_padded-border_border-control_ipadScan15.jpg"
-      },
-      "detail": {
-        "caption": "Detail caption 15",
-        "image": ""
       }
     },
     {
       "content": {
         "caption": "Caption 16",
         "image": "../images/ipad_naughty-knitting/16nk_mark-outliers_ipadScan11.jpg"
-      },
-      "detail": {
-        "caption": "Detail Caption 16",
-        "image": ""
       }
     },
     {
       "content": {
         "caption": "Caption 17",
         "image": "../images/ipad_naughty-knitting/17nk_censorship_ipadScan21.jpg"
-      },
-      "detail": {
-        "caption": "Detail Caption 17",
-        "image": ""
       }
     },
     {
@@ -177,14 +125,52 @@
         "image": "../images/ipad_naughty-knitting/18nk_play-snake_game-over-level-one_ipadScan22.jpg"
       },
       "detail": {
-        "caption": "Detail Caption 18",
-        "image": ""
+        "caption": "play snake (game over level 1)",
+        "video": "https://vimeo.com/405921053"
       }
     },
     {
       "content": {
         "caption": "Caption 19",
         "image": "../images/ipad_naughty-knitting/19nk_precarity-triangle_ipadScan25.jpeg"
+      }
+    },
+    {
+      "content": {
+        "caption": "Caption 20",
+        "image": "../images/ipad_naughty-knitting/20nk_cross-sections-of-stormy-ocean_ipadScan24.jpg"
+      }
+    },
+    {
+      "content": {
+        "caption": "set theory",
+        "image": "../images/ipad_naughty-knitting/21nk_set-theory-or-sunset_ipadScan1.jpg"
+      },
+      "detail": {
+        "caption": "set theory",
+        "image": "../images/detail_images/21nk_link_set-theory_paperpando10.blog.com.jpeg"
+      }
+    },
+    {
+      "content": {
+        "caption": "Caption 22",
+        "image": "../images/ipad_naughty-knitting/22nk_diagonality_ipadScan16.jpg"
+      }
+    },
+    {
+      "content": {
+        "caption": "Caption 23",
+        "image": "../images/ipad_naughty-knitting/23nk_hug-outliners_ipadScan10.jpg"
+      }
+    },
+    {
+      "content": {
+        "caption": "Caption 24",
+        "image": "../images/ipad_naughty-knitting/24nk_water-lily-pond_ipadScan0.jpg"
+      },
+      "detail": {
+        "caption": "Detail caption 24",
+        "image": "water lily pond"
       }
     }
   ]
