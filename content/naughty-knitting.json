@@ -4,17 +4,17 @@
     {
       "content": {
         "caption": "Caption 1",
-        "image": "/images/ipad_naughty-knitting/10nk_tenderness-inbetween_ipadScan12.jpg"
+        "image": "../images/naughty-knitting/1nk_multiple-choice_ipadScan14.jpg"
       },
       "detail": {
         "caption": "Detail caption 1",
-        "image": "/images/detail_images/10r_link_SECI_Model_nur1Bild.jpg"
+        "image": "../images/detail_images/10r_link_SECI_Model_nur1Bild.jpg"
       }
     },
     {
       "content": {
         "caption": "Caption 2",
-        "image": "/images/ipad_naughty-knitting/11nk_empirical-sublime_ipadScan7.jpg"
+        "image": "../images/naughty-knitting/2nk_strike-out-emtiness_ipadScan6.jpg"
       },
       "detail": {
         "caption": "Detail caption 2",
@@ -24,17 +24,167 @@
     {
       "content": {
         "caption": "Caption 3",
-        "image": "/images/ipad_naughty-knitting/11nk_empirical-sublime_ipadScan7.jpg"
+        "image": "../images/ipad_naughty-knitting/3nk_outside-overflow_industrial-city-upside-down_ipadScan17.jpg"
       },
       "detail": {
         "caption": "Detail caption 2",
-        "image": "/images/detail_images/11nk_link_empirical-sublime-fullpage.jpg"
+        "image": "../images/detail_images/11nk_link_empirical-sublime-fullpage.jpg"
       }
     },
     {
       "content": {
         "caption": "Caption 4",
-        "image": "/images/ipad_naughty-knitting/11nk_empirical-sublime_ipadScan7.jpg"
+        "image": "../images/ipad_naughty-knitting/4nk_standart-distruption_ipad_Scan19.jpg"
+      },
+      "detail": {
+        "caption": "Detail caption 3",
+        "image": ""
+      }
+    },
+    {
+      "content": {
+        "caption": "Caption 5",
+        "image": "../images/ipad_naughty-knitting/5nk_dead-end_ipadScan13.jpg"
+      },
+      "detail": {
+        "caption": "Detail Caption 5",
+        "image": ""
+      }
+    },
+    {
+      "content": {
+        "caption": "Caption 6",
+        "image": "../images/ipad_naughty-knitting/6nk_one-out-of-three-is-black_ipadScan20.jpg"
+      },
+      "detail": {
+        "caption": "Detail caption 6",
+        "image": ""
+      }
+    },
+    {
+      "content": {
+        "caption": "Caption 7",
+        "image": "../images/ipad_naughty-knitting/7nk_fill-in-empttiness_ipadScan3.jpg"
+      },
+      "detail": {
+        "caption": "Detail caption 7",
+        "image": ""
+      }
+    },
+    {
+      "content": {
+        "caption": "Caption 8",
+        "image": "../images/ipad_naughty-knitting/8nk_pixel-bubbles_ipadScam2.jpg"
+      },
+      "detail": {
+        "caption": "Detail caption 8",
+        "image": ""
+      }
+    },
+    {
+      "content": {
+        "caption": "Caption 9",
+        "image": "../images/ipad_naughty-knitting/9nk_jerky-outline-added-sparkles_ipadScan23.jpg"
+      },
+      "detail": {
+        "caption": "Detail caption 9",
+        "image": ""
+      }
+    },
+    {
+      "content": {
+        "caption": "Detail caption 10",
+        "image": "../images/ipad_naughty-knitting/10nk_tenderness-inbetween_ipadScan12.jpg"
+      },
+      "detail": {
+        "caption": "Detail caption 10",
+        "image": ""
+      }
+    },
+    {
+      "content": {
+        "caption": "Caption 11",
+        "image": "../images/ipad_naughty-knitting/11nk_empircal-sublime_ipadScan7.jpg"
+      },
+      "detail": {
+        "caption": "Detail Caption 11",
+        "image": ""
+      }
+    },
+    {
+      "content": {
+        "caption": "Detail caption 12",
+        "image": "../images/ipad_naughty-knitting/12nk_entropy-rising_ipadScan26.jpg"
+      },
+      "detail": {
+        "caption": "Detail caption 12",
+        "image": ""
+      }
+    },
+    {
+      "content": {
+        "caption": "Caption 13",
+        "image": "../images/ipad_naughty-knitting/13nk_average-total_ipadScan5.jpg"
+      },
+      "detail": {
+        "caption": "Detail caption 13",
+        "image": ""
+      }
+    },
+    {
+      "content": {
+        "caption": "Caption 14",
+        "image": "../images/ipad_naughty-knitting/14nk_container-statistics_ipadScan27.jpg"
+      },
+      "detail": {
+        "caption": "Detail caption 14",
+        "image": ""
+      }
+    },
+    {
+      "content": {
+        "caption": "Detail caption 15",
+        "image": "../images/ipad_naughty-knitting/15nk_padded-border_border-control_ipadScan15.jpg"
+      },
+      "detail": {
+        "caption": "Detail caption 15",
+        "image": ""
+      }
+    },
+    {
+      "content": {
+        "caption": "Caption 16",
+        "image": "../images/ipad_naughty-knitting/16nk_mark-outliers_ipadScan11.jpg"
+      },
+      "detail": {
+        "caption": "Detail Caption 16",
+        "image": ""
+      }
+    },
+    {
+      "content": {
+        "caption": "Caption 17",
+        "image": "../images/ipad_naughty-knitting/17nk_censorship_ipadScan21.jpg"
+      },
+      "detail": {
+        "caption": "Detail Caption 17",
+        "image": ""
+      }
+    },
+    {
+      "content": {
+        "caption": "Caption 18",
+        "image": "../images/ipad_naughty-knitting/18nk_play-snake_game-over-level-one_ipadScan22.jpg"
+      },
+      "detail": {
+        "caption": "Detail Caption 18",
+        "image": ""
+      }
+    },
+    {
+      "content": {
+        "caption": "Caption 19",
+        "image": "../images/ipad_naughty-knitting/19nk_precarity-triangle_ipadScan25.jpeg"
       }
     }
   ]

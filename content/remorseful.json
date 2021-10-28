@@ -4,11 +4,11 @@
     {
       "content": {
         "caption": "Caption 1",
-        "image": "/images/ipad_remorseful/10r_model-of-knowledge-dimension_ipadScan0.jpg"
+        "image": "../images/ipad_remorseful/10r_model-of-knowledge-dimension_ipadScan0.jpg"
       },
       "detail": {
         "caption": "Detail caption 1",
-        "image": "/images/detail_images/10r_link_SECI_Model_nur1Bild.jpg"
+        "image": "../images/detail_images/10r_link_SECI_Model_nur1Bild.jpg"
       }
     },
     {
