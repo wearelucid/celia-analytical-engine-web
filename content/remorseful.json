@@ -3,26 +3,26 @@
   "slides": [
     {
       "content": {
-        "caption": "Caption 1",
+        "caption": "someone out there?",
         "image": "../images/ipad_remorseful/1r_someone-outthere_ipadScan24.jpg"
       }
     },
     {
       "content": {
-        "caption": "Caption 2",
-        "image": "../images/ipad_remorseful/2rmaximal-progress_ipadScan19.jpg"
+        "caption": "maximal progress",
+        "image": "../images/ipad_remorseful/2r_maximal-progress_ipadScan19.jpg"
       }
     },
     {
       "content": {
-        "caption": "Caption 3",
+        "caption": "3rd extinction",
         "image": "../images/ipad_remorseful/3r_3rd-extinction_ipadScan16.jpg"
       }
     },
     {
       "content": {
-        "caption": "Caption 4",
-        "image": "../images/ipad_remorseful/11r_template_ipadScan22.jpg"
+        "caption": "fragmented",
+        "image": "../images/ipad_remorseful/4r_fragmented_ipadScan25.jpg"
       },
       "detail": {
         "caption": "fragmented",
@@ -31,14 +31,14 @@
     },
     {
       "content": {
-        "caption": "Caption 5",
+        "caption": "from one second to another",
         "image": "../images/ipad_remorseful/5r_from-one-second-to-another_ipadScan14.jpg"
       }
     },
     {
       "content": {
-        "caption": "Caption 6",
-        "image": "../images/ipad_remorseful/6r_spin-it-around-and-stir-it-up_ipadScan1"
+        "caption": "spin it around and stir it up ",
+        "image": "../images/ipad_remorseful/6r_spin-it-around-and-stir-it-up_ipadScan1.jpg"
       },
       "detail": {
         "caption": "spin it around and stir it up",
@@ -47,13 +47,13 @@
     },
     {
       "content": {
-        "caption": "Caption 7",
+        "caption": "stelar constellation",
         "image": "../images/ipad_remorseful/7r_stelar-constellation_ipadScan27.jpg"
       }
     },
     {
       "content": {
-        "caption": "Caption 8",
+        "caption": "melting curve",
         "image": "../images/ipad_remorseful/8r_melting-curve_ipadScan26.jpg"
       },
       "detail": {
@@ -63,13 +63,13 @@
     },
     {
       "content": {
-        "caption": "Caption 9",
+        "caption": "hashtags everywhere",
         "image": "../images/ipad_remorseful/9r_hashtags-everywhere_ipadScan8.jpg"
       }
     },
     {
       "content": {
-        "caption": "Caption 10",
+        "caption": " model of knowledge dimension",
         "image": "../images/ipad_remorseful/10r_model-of-knowledge-dimension_ipadScan0.jpg"
       },
       "detail": {
@@ -79,7 +79,7 @@
     },
     {
       "content": {
-        "caption": "Caption 11",
+        "caption": "template",
         "image": "../images/ipad_remorseful/11r_template_ipadScan22.jpg"
       },
       "detail": {
@@ -89,20 +89,20 @@
     },
     {
       "content": {
-        "caption": "Caption 12",
+        "caption": "panorama",
         "image": "../images/ipad_remorseful/12r_panorama_ipadScan21.jpg"
       }
     },
     {
       "content": {
-        "caption": "Caption 13",
-        "image": "../images/ipad_remorseful/13r_weather-forcast_ipadScan9.jpg"
+        "caption": "weather forecast",
+        "image": "../images/ipad_remorseful/13r_weather-forecast_ipadScan23.jpg"
       }
     },
     {
       "content": {
-        "caption": "Caption 14",
-        "image": "../images/ipad_remorseful/calligraphic_ipadScan9.jpg"
+        "caption": "calligraphic",
+        "image": "../images/ipad_remorseful/14r_calligraphic_ipadScan9.jpg"
       },
       "detail": {
         "caption": "calligraphic",
@@ -111,58 +111,58 @@
     },
     {
       "content": {
-        "caption": "Caption 15",
-        "image": "../images/ipad_remorseful/15r_standart-distrubtion-almost_ipadScan18.jpg"
+        "caption": "standart distribution",
+        "image": "../images/ipad_remorseful/15r_standard-distribution-almost_ipadScan18.jpg"
       },
       "detail": {
-        "caption": "Detail caption 2",
+        "caption": "standart distribution",
         "image": "../images/detail_images/15r_link_standart-distrubtion.jpg"
       }
     },
     {
       "content": {
-        "caption": "Caption 16",
-        "image": "../images/ipad_remorseful/sourrounded-by-turbolence_ipadScan5.jpg"
+        "caption": "surrounded by turbulence",
+        "image": "../images/ipad_remorseful/16r_surrounded-by-turbulence_ipadScan5.jpg"
       }
     },
     {
       "content": {
-        "caption": "Caption 17",
-        "image": "../images/ipad_remorseful/17r_1000-plateaus_ipad17.jpg"
+        "caption": "1000 plateaus",
+        "image": "../images/ipad_remorseful/17r_1000-plateaus_ipadScan17.jpg"
       },
       "detail": {
-        "caption": "Detail caption 2",
+        "caption": "1000 plateaus",
         "image": "../images/detail_images/17r_link_1000plateu.jpg"
       }
     },
     {
       "content": {
-        "caption": "Caption 18",
+        "caption": "first to last",
         "image": "../images/ipad_remorseful/18r_first-to-last_ipadScan15.jpg"
       }
     },
     {
       "content": {
-        "caption": "Caption 19",
-        "image": "19r_capital-per-day_wave-approaching_ipadScan4.jpg"
+        "caption": " capital per day/ wave approaching",
+        "image": "../images/ipad_remorseful/19r_capital-per-day_wave-approaching_ipadScan4.jpg"
       }
     },
     {
       "content": {
-        "caption": "Caption 20",
+        "caption": "shiver between boxes",
         "image": "../images/ipad_remorseful/20r_shiver-between-boxes_ipadScan6.jpg"
       }
     },
     {
       "content": {
-        "caption": "Caption 21",
+        "caption": "upper and lower class with gaps",
         "image": "../images/ipad_remorseful/21r_upper-and-lower-class-with-gaps_ipadScan2.jpg"
       }
     },
     {
       "content": {
-        "caption": "Caption 22",
-        "image": "../images/ipad_remorseful/22r_colour-in-mistakes-ipadScan3.jpg"
+        "caption": "color in mistakes",
+        "image": "../images/ipad_remorseful/22r_colour-in-mistakes_ipadScan3.jpg"
       }
     }
   ]
