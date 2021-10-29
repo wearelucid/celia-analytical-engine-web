@@ -10,7 +10,7 @@
     {
       "content": {
         "caption": "Caption 2",
-        "image": "../images/ipad_remorseful/2rmaximal-progress_ipadScan19.jpg"
+        "image": "../images/ipad_remorseful/2r_maximal-progress_ipadScan19.jpg"
       }
     },
     {
@@ -22,11 +22,11 @@
     {
       "content": {
         "caption": "Caption 4",
-        "image": "/images/ipad_remorseful/11r_template_ipadScan22.jpg"
+        "image": "../images/ipad_remorseful/11r_template_ipadScan22.jpg"
       },
       "detail": {
         "caption": "fragmented",
-        "image": "4r_link_fragmented.jpg"
+        "image": "../images/detail_images/4r_link_fragmented.jpg"
       }
     },
     {
@@ -38,7 +38,7 @@
     {
       "content": {
         "caption": "Caption 6",
-        "image": "/images/ipad_remorseful/6r_spin-it-around-and-stir-it-up_ipadScan1"
+        "image": "../images/ipad_remorseful/6r_spin-it-around-and-stir-it-up_ipadScan1.jpg"
       },
       "detail": {
         "caption": "spin it around and stir it up",
@@ -48,61 +48,61 @@
     {
       "content": {
         "caption": "Caption 7",
-        "image": "/images/ipad_remorseful/7r_stelar-constellation_ipadScan27.jpg"
+        "image": "../images/ipad_remorseful/7r_stelar-constellation_ipadScan27.jpg"
       }
     },
     {
       "content": {
         "caption": "Caption 8",
-        "image": "/images/ipad_remorseful/8r_melting-curve_ipadScan26.jpg"
+        "image": "../images/ipad_remorseful/8r_melting-curve_ipadScan26.jpg"
       },
       "detail": {
         "caption": "melting curve",
-        "image": "/images/detail_images/8r_link_melting-curve.jpg"
+        "image": "../images/detail_images/8r_link_melting-curve.jpg"
       }
     },
     {
       "content": {
         "caption": "Caption 9",
-        "image": "/images/ipad_remorseful/9r_hashtags-everywhere_ipadScan8.jpg"
+        "image": "../images/ipad_remorseful/9r_hashtags-everywhere_ipadScan8.jpg"
       }
     },
     {
       "content": {
         "caption": "Caption 10",
-        "image": "/images/ipad_remorseful/10r_model-of-knowledge-dimension_ipadScan0.jpg"
+        "image": "../images/ipad_remorseful/10r_model-of-knowledge-dimension_ipadScan0.jpg"
       },
       "detail": {
         "caption": "model of knowledge dimension > 1 Bild „10r_link_... „ (Bild von Seci Model)",
-        "image": "/images/detail_images/10r_link_SECI_Model_nur1Bild.jpg"
+        "image": "../images/detail_images/10r_link_SECI_Model_nur1Bild.jpg"
       }
     },
     {
       "content": {
         "caption": "Caption 11",
-        "image": "/images/ipad_remorseful/11r_template_ipadScan22.jpg"
+        "image": "../images/ipad_remorseful/11r_template_ipadScan22.jpg"
       },
       "detail": {
         "caption": "template",
-        "image": "/images/detail_images/11nr_link_template_.jpg"
+        "image": "../images/detail_images/11nr_link_template_.jpg"
       }
     },
     {
       "content": {
         "caption": "Caption 12",
-        "image": "/images/ipad_remorseful/12r_panorama_ipadScan21.jpg"
+        "image": "../images/ipad_remorseful/12r_panorama_ipadScan21.jpg"
       }
     },
     {
       "content": {
         "caption": "Caption 13",
-        "image": "/images/ipad_remorseful/13r_weather-forcast_ipadScan9.jpg"
+        "image": "../images/ipad_remorseful/13r_weather-forcast_ipadScan23.jpg"
       }
     },
     {
       "content": {
         "caption": "Caption 14",
-        "image": "/images/ipad_remorseful/calligraphic_ipadScan9.jpg"
+        "image": "../images/ipad_remorseful/14r_calligraphic_ipadScan9.jpg"
       },
       "detail": {
         "caption": "calligraphic",
@@ -112,57 +112,57 @@
     {
       "content": {
         "caption": "Caption 15",
-        "image": "/images/ipad_remorseful/15r_standart-distrubtion-almost_ipadScan18.jpg"
+        "image": "../images/ipad_remorseful/15r_standart-distriubtion-almost_ipadScan18.jpg"
       },
       "detail": {
         "caption": "Detail caption 2",
-        "image": "/images/detail_images/15r_link_standart-distrubtion.jpg"
+        "image": "../images/detail_images/15r_link_standart-distrubtion.jpg"
       }
     },
     {
       "content": {
         "caption": "Caption 16",
-        "image": "/images/ipad_remorseful/sourrounded-by-turbolence_ipadScan5.jpg"
+        "image": "../images/ipad_remorseful/16r_sourrounded-by-turbolence_ipadScan5.jpg"
       }
     },
     {
       "content": {
         "caption": "Caption 17",
-        "image": "/images/ipad_remorseful/17r_1000-plateaus_ipad17.jpg"
+        "image": "../images/ipad_remorseful/17r_1000-plateaus_ipadScan17.jpg"
       },
       "detail": {
         "caption": "Detail caption 2",
-        "image": "/images/detail_images/17r_link_1000plateu.jpg"
+        "image": "../images/detail_images/17r_link_1000plateu.jpg"
       }
     },
     {
       "content": {
         "caption": "Caption 18",
-        "image": "/images/ipad_remorseful/18r_first-to-last_ipadScan15.jpg"
+        "image": "../images/ipad_remorseful/18r_first-to-last_ipadScan15.jpg"
       }
     },
     {
       "content": {
         "caption": "Caption 19",
-        "image": "19r_capital-per-day_wave-approaching_ipadScan4.jpg"
+        "image": "../images/ipad_remorseful/19r_capital-per-day_wave-approaching_ipadScan4.jpg"
       }
     },
     {
       "content": {
         "caption": "Caption 20",
-        "image": "/images/ipad_remorseful/20r_shiver-between-boxes_ipadScan6.jpg"
+        "image": "../images/ipad_remorseful/20r_shiver-between-boxes_ipadScan6.jpg"
       }
     },
     {
       "content": {
         "caption": "Caption 21",
-        "image": "/images/ipad_remorseful/21r_upper-and-lower-class-with-gaps_ipadScan2.jpg"
+        "image": "../images/ipad_remorseful/21r_upper-and-lower-class-with-gaps_ipadScan2.jpg"
       }
     },
     {
       "content": {
         "caption": "Caption 22",
-        "image": "/images/ipad_remorseful/22r_colour-in-mistakes-ipadScan3.jpg"
+        "image": "../images/ipad_remorseful/22r_colour-in-mistakes-ipadScan3.jpg"
       }
     }
   ]
