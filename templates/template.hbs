@@ -20,35 +20,41 @@
     <div class="carousel">
 
       {{#each slides}}
-        <div class="carousel-cell">
+      <div class="carousel-cell">
 
-          <div class="slide-detail">
-            {{#if this.detail}}
-            {{#if this.detail.video}}
-            <div class="video">
-              <iframe src="{{this.detail.video}}"></iframe>
-            </div>
-            {{else if this.detail.image}}
-            <button class="button button-down" data-scroll-down>Back to Engine</button>
-            <img class="img" src="{{this.detail.image}}">
+        <div class="slide-detail">
+          {{#if this.detail}}
+          {{#if this.detail.video}}
+          <div class="video">
+            <iframe src="{{this.detail.video}}"></iframe>
+          </div>
+          {{else if this.detail.image}}
+
+          <div class="image-wrapper">
+            <img class="detail-img" src="{{this.detail.image}}">
+          </div>
+
+          <div class="controls-wrapper">
             <div class="caption-detail">{{this.detail.caption}}</div>
-            {{/if}}
-            {{/if}}
+            <button class="button button-down" data-scroll-down>Back to Engine</button>
           </div>
-        
-          <div class="slide-content">
-            {{#if this.content.caption}}
-              <div class="caption">{{this.content.caption}}</div>
-            {{/if}}
-
-            <img class="img" src="{{this.content.image}}">
-            
-            {{#if this.detail}}
-            <button class="button button-see-more" data-scroll-up>See More</button>
-            {{/if}}
-          </div>
-
+          {{/if}}
+          {{/if}}
         </div>
+
+        <div class="slide-content">
+          {{#if this.content.caption}}
+          <div class="caption">{{this.content.caption}}</div>
+          {{/if}}
+
+          <img class="img" src="{{this.content.image}}">
+
+          {{#if this.detail}}
+          <button class="button button-see-more" data-scroll-up>See More</button>
+          {{/if}}
+        </div>
+
+      </div>
       {{/each}}
 
     </div>
@@ -57,4 +63,5 @@
   <script src="../javascript/flickity.pkgd.min.js"></script>
   <script src="../javascript/main.js"></script>
 </body>
+
 </html>

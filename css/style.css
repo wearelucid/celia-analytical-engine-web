@@ -1,5 +1,6 @@
 * {
     font-family: 'Anonymous Pro', monospace;
+    font-size: 24px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,6 +13,7 @@ body {
 }
 
 /* Index page list, listing both projects */
+
 .list {
     padding: 20px;
 }
@@ -23,9 +25,7 @@ body {
 button {
     border: 1px;
     text-align: center;
-    padding: 15px;
     text-decoration: underline;
-    border-radius: 5px;
 }
 
 h1 {
@@ -71,14 +71,17 @@ h1 {
 .button {
     background-color: whitesmoke;
     color: black;
-    font-size: 24px;
     z-index: 99;
-    top: 45%;
 }
 
 .button-down {
-    top: 93%;
+    bottom: 50px;
+    left: 50%;
+    top: auto;
+    transform: translateX(-50%);
     position: absolute;
+    /* wrapper with pointer-events: none; to allow scrolling in container underneath */
+    pointer-events: all;
 }
 
 .button-down:hover {
@@ -86,7 +89,7 @@ h1 {
 }
 
 .button-see-more {
-    top: 3%;
+    top: 50px;
     position: absolute;
 }
 
@@ -100,18 +103,23 @@ h1 {
 
 .caption {
     position: absolute;
-    font-size: 24px;
-    border-radius: 5px;
-    padding: 5px;
     z-index: 99;
-    top: 93%;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: whitesmoke;
+}
+
+.caption, .caption-detail, .button {
+    /* padding css shorthand: https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties */
+    padding: 13px 20px;
 }
 
 iframe {
     height: 80vh;
     width: 100vw;
     border: 0;
+    background-color: black;
 }
 
 .slide-detail {
@@ -119,18 +127,39 @@ iframe {
     position: relative;
     height: 100vh;
     width: 100vw;
+    overflow-y: auto;
+}
+
+.video {
+    height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.image-wrapper {
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+    top: 0;
+    position: absolute;
+}
+
+.controls-wrapper {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    pointer-events: none;
+}
+
 .caption-detail {
     position: absolute;
-    font-size: 24px;
-    border-radius: 5px;
-    padding: 5px;
     z-index: 99;
-    top: 7%;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: whitesmoke;
 }
 
@@ -144,6 +173,12 @@ iframe {
     transform: translate(-50%, -50%);
     object-fit: cover;
     z-index: 1;
+    overflow: auto;
+}
+
+.detail-img {
+    display: block;
+    width: 100%;
 }
 
 .button-see-more:hover {
