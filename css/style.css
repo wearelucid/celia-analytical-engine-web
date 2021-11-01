@@ -119,7 +119,8 @@ iframe {
     height: 80vh;
     width: 100vw;
     border: 0;
-    background-color: black;
+    /* for debugging videos locally */
+    /* background-color: black; */
 }
 
 .slide-detail {
