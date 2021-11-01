@@ -54,7 +54,7 @@ h1 {
 }
 
 .slide-content {
-    background-color: whitesmoke;
+    background-color: #F1F1F1;
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -69,7 +69,7 @@ h1 {
 }
 
 .button {
-    background-color: whitesmoke;
+    background-color: #F1F1F1;
     color: black;
     z-index: 99;
 }
@@ -107,7 +107,7 @@ h1 {
     bottom: 50px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: whitesmoke;
+    background-color: #F1F1F1;
 }
 
 .caption, .caption-detail, .button {
@@ -124,7 +124,7 @@ iframe {
 }
 
 .slide-detail {
-    background: whitesmoke;
+    background: #F1F1F1;
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -161,7 +161,7 @@ iframe {
     top: 50px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: whitesmoke;
+    background-color: #F1F1F1;
 }
 
 .img {

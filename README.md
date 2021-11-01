@@ -10,8 +10,8 @@ Slider-webpage for exhibition.
 
 - first you need the yarn version 1.22.17(https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
   after this you need the correct version of yarn there are many ways to set your yarn version(https://yarnpkg.com/cli/set/version)
-- after you finished downloading yarn and you set it to the correct version you have to be shure that you have the node version '16.13.0'
-  -when you are done with this it is important to download a handelbars file (mostlikely the whole website is based on them) to install it you need the commands:
+- when the download of yarn is complete and you set it to the correct version you have to be shure that you have the node version '16.13.0'
+- immediatly you are done with this it is important to download a handelbars file (mostlikely the whole website is based on them) to install it you need the commands:
   npm install handlebars or yarn add handlebars.
 - this is everything you need the command yarn generate-all to genarate the HTML files (see more in how i was built)
 - the reason why you have to do this: everytime you change something it needs to generate the new html files with the changes,
@@ -19,7 +19,7 @@ Slider-webpage for exhibition.
 
 ## How its was built
 
-#### How the hbs file is built
+#### How the hbs file is built:
 
 This project is based on a handelbars file (https://handlebarsjs.com/guide/) and a flickity slider(https://flickity.metafizzy.co/).
 you see that this files construction is like a gap text because everytime something with code like this comes {{#if this.detail}} its getting filled with the JSON files
@@ -34,10 +34,10 @@ thats a exaple how it works in the gap text everytime {{#if this.content.caption
 
 #### How the flickity slider is built
 
-the flickity slider is a easy to use slider option which helps you saving time in project on building a slider
+the flickity slider is a easy to use slider option which helps you saving time in project on building a slider or wasting time on incomplete attemps of building one.
 multiple of thoose options are avaible without even downloading an extern html, css or js file.
 you can have many diffrent variants of the flickity slider (a few examples freescroll, wraparound, fullscreen, autoplay etc.)
-to set these settings the only thing you need to do is to write in your js file var flickityOptionen = {} and write the things you need in the clings.
+everything you need to do is write: var flickityOptionen = {} and write the things you need in the clings.
 
 ## things you should use:
 
@@ -60,4 +60,7 @@ the website dont work like normal from upside down, it works from left to right 
 on a few slides (means 1 cell of the slider) are detail-sites. the detail-sites work pretty easy there sre 2 container one for the normal content site andd one for the slide-detail.
 everytime you push the SeeMore button the viewport-height/width slides down the back to engine does the uposite.
 
-##
+## whats the website about:
+
+the website is build for a art projekt made by celia längle.
+Morse-code is the theme of the web-site and the style aspect comes from an old computer startup(monospace font).
