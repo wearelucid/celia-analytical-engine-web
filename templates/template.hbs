@@ -27,6 +27,8 @@
           {{#if this.detail.video}}
           <div class="video">
             <iframe src="{{this.detail.video}}"></iframe>
+            <div class="caption-detail">{{this.detail.caption}}</div>
+             <button class="button button-down" data-scroll-down>Back to Engine</button>
           </div>
           {{else if this.detail.image}}
 

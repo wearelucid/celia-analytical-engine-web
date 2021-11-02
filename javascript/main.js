@@ -1,6 +1,6 @@
 var elem = document.querySelector('.carousel')
 
-var flickityOptionen = {
+var flickityOptions = {
     cellAlign: 'left',
     contain: true,
     wrapAround: true,
@@ -9,7 +9,7 @@ var flickityOptionen = {
     draggable: true,
 }
 
-var flkty = new Flickity(elem, flickityOptionen)
+var flkty = new Flickity(elem, flickityOptions)
 
 var scrollUpButtons = document.querySelectorAll('[data-scroll-up]')
 var scrollDownButtons = document.querySelectorAll('[data-scroll-down]')

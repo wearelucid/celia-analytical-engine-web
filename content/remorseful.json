@@ -42,7 +42,7 @@
       },
       "detail": {
         "caption": "spin it around and stir it up",
-        "video": "https://vimeo.com/407114190"
+        "video": "https://player.vimeo.com/video/407114190"
       }
     },
     {
@@ -106,16 +106,16 @@
       },
       "detail": {
         "caption": "calligraphic",
-        "video": "https://vimeo.com/609860372"
+        "video":"https://player.vimeo.com/video/609860372"
       }
     },
     {
       "content": {
-        "caption": "standart distribution",
+        "caption": "standard distribution",
         "image": "../images/ipad_remorseful/15r_standard-distribution-almost_ipadScan18.jpg"
       },
       "detail": {
-        "caption": "standart distribution",
+        "caption": "standard distribution",
         "image": "../images/detail_images/15r_link_standard-distribution.jpg"
       }
     },
@@ -151,6 +151,12 @@
       "content": {
         "caption": "shiver between boxes",
         "image": "../images/ipad_remorseful/20r_shiver-between-boxes_ipadScan6.jpg"
+      }
+    },
+    {
+      "detail":{
+        "caption":"shiver between boxes",
+        "video":"https://player.vimeo.com/video/  422886882"
       }
     },
     {
