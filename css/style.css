@@ -89,8 +89,13 @@ h1 {
 }
 
 .button-see-more {
-    top: 50px;
+    top: 20px;
     position: absolute;
+    background-color: transparent;
+}
+
+.button-transparent{
+    background-color: transparent;
 }
 
 .show-details {
@@ -104,15 +109,17 @@ h1 {
 .caption {
     position: absolute;
     z-index: 99;
-    bottom: 50px;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #F1F1F1;
+    background-color: transparent;
+    /* background-color: #F1F1F1; */
 }
 
 .caption, .caption-detail, .button {
     /* padding css shorthand: https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties */
     padding: 13px 20px;
+    text-align: center;
 }
 
 iframe {
@@ -207,4 +214,7 @@ iframe {
 
 .flickity-enabled.is-fullscreen .flickity-page-dots .dot {
     background: transparent;
+}
+.caption-transparent {
+    background-color: transparent;
 }
